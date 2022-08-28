@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"types": "src/index.ts",
 	"scripts": {
-		"test": "npm run build && jest --coverage ./tests",
+		"test": "npm run build && npx jest --coverage ./tests",
 		"build": "npx tsc -p .",
 		"start": "node dist/start.js"
 	},
@@ -44,7 +44,7 @@
 		"exif-be-gone": "^1.2.0",
 		"express": "^4.17.1",
 		"express-async-errors": "^3.1.1",
-		"file-type": "^16.5.0",
+		"file-type": "^16.5.4",
 		"form-data": "^4.0.0",
 		"fs-extra": "^10.0.0",
 		"image-size": "^1.0.0",
